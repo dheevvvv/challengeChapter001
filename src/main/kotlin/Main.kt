@@ -1,9 +1,11 @@
 fun main() {
-    val ukuran = 5
-    val polaSegitigaSamaSisi: Pola = PolaSegitigaSamaSisi(ukuran)
-    val polaSgitigaSiku: Pola = PolaSgitigaSiku(ukuran)
-    val polaPlus: Pola = PolaPlus(ukuran)
-    val polaX: Pola = PolaX(ukuran)
+    val ukuran = 7
+    val polaSegitigaSamaSisi = PolaSegitigaSamaSisi(ukuran)
+    val polaSgitigaSiku = PolaSgitigaSiku(ukuran)
+    val polaPlus = PolaPlus(ukuran)
+    val polaSegitigaTerbalik = PolaSegitigaTerbalik(ukuran)
+    val polaX = PolaX(ukuran)
+    val polaWajikBelahKetupat = PolaWajikBelahKetupat(ukuran)
 
     polaSegitigaSamaSisi.printPola()
     println()
@@ -14,5 +16,12 @@ fun main() {
     polaPlus.printPola()
     println()
 
+    polaSegitigaTerbalik.printPola()
+    println()
+
     polaX.printPola()
+    println()
+
+    polaWajikBelahKetupat.printPola()
+    println()
 }
